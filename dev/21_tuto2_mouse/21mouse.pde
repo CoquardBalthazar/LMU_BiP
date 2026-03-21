@@ -8,14 +8,14 @@ void setup() {
 }
 
 void draw() {
-  // background(0);
-  //   line(mouseX, 500, pmouseX, 500);       //line between(x1, y1, x2, y2)
-  //   println(mouseX + " : " + pmouseX);     // print to the console the current x and previous x
+   background(0);
+     line(mouseX, 500, pmouseX, 500);       //line between(x1, y1, x2, y2)
+     println(mouseX + " : " + pmouseX);     // print to the console the current x and previous x
 
-  //   // TASK 1 moving circle following mouse
-  //   fill(255, 0, 0);    // red
-  //   ellipse(mouseX, mouseY, 50, 50);
-  //   println(mouseX + " : " + pmouseX);     // print to the console the current x and previous x
+     // TASK 1 moving circle following mouse
+     fill(255, 0, 0);    // red
+     ellipse(mouseX, mouseY, 50, 50);
+     println(mouseX + " : " + pmouseX);     // print to the console the current x and previous x
 
   //// TASK 2 : store positions in arrays
   //background(0);
@@ -31,23 +31,23 @@ void draw() {
   //println(mouseX + " : " + pmouseX);     // print to the console the current x and previous x
 
 
-  //Task 3 Loops in loops? How to draw a chessboard pattern?
-  background(0);
+//  //Task 3 Loops in loops? How to draw a chessboard pattern?
+//  background(0);
 
-  int squareSize = 100;
+//  int squareSize = 100;
 
 
-  for (int i =0; i<8; i++) {  // rows
-    for (int j =0; j<8; j++) {
+//  for (int i =0; i<8; i++) {  // rows
+//    for (int j =0; j<8; j++) {
 
-      if ((i+j) % 2 == 0 ) {
-        fill(255); //  white
-      } else {
-        fill(0); // black
-      }
-      rect(j * squareSize, i * squareSize, squareSize, squareSize);
-    }
-  }
+//      if ((i+j) % 2 == 0 ) {
+//        fill(255); //  white
+//      } else {
+//        fill(0); // black
+//      }
+//      rect(j * squareSize, i * squareSize, squareSize, squareSize);
+//    }
+//  }
 }
 
 
