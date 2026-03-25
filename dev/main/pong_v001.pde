@@ -32,6 +32,7 @@ float PADDLE_SHRINK_STEP = 3.0;
 
 void setup() {
   size(1000, 1000);
+  textAlign(CENTER, CENTER);
 }
 
 void draw() {
