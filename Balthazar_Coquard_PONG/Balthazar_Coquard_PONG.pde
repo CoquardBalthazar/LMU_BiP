@@ -195,7 +195,7 @@ void applyRallyDifficulty() {
   leftPaddle.setHeight(targetHeight);
   rightPaddle.setHeight(targetHeight);
 
-  // Feature : Ball Speed --> see Ball class
+  // Feature : Ball Speed
 }
 
 
